@@ -84,19 +84,19 @@ oldpeak = keras.Input(shape=(1,), name="oldpeak")
 slope = keras.Input(shape=(1,), name="slope")
 
 all_inputs = [
-	sex,
-	cp,
-	fbs,
-	restecg,
-	exang,
-	ca,
-	thal,
 	age,
-	trestbps,
+	ca,
 	chol,
-	thalach,
+	cp,
+	exang,
+	fbs,
 	oldpeak,
+	restecg,
+	sex,
 	slope,
+	thal,
+	thalach,
+	trestbps,
 ]
 
 # Integer categorical features
